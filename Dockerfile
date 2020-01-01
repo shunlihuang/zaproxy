@@ -7,6 +7,8 @@ RUN apt-get update && apt-get install -q -y --fix-missing \
 	jq \
 	python3-csvkit \
 	vim
+RUN pip install csvkit
+#RUN pip3 install csvkit
 RUN apt-get clean && \
 	rm -rf /var/lib/apt/lists/*
 
