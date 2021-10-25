@@ -16,4 +16,4 @@ RUN apt-get clean && \
 WORKDIR /zap
 
 #Change to the zap user so things get done as the right person (apart from copy)
-USER zap
+#USER zap
