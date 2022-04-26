@@ -1,4 +1,4 @@
-FROM owasp/zap2docker-stable
+FROM owasp/zap2docker-stable:2.11.1
 LABEL maintainer="shunli.huang.wistron@gmail.com"
 
 USER root
